@@ -33,7 +33,7 @@
                     <li>Aprendizaje 2</li>
                 </ul>
             </li>
-            <li>Acerca de Autor
+            <li>Acerca del Autor
                 <ul>
                     <li>Autor</li>
                 </ul>
@@ -49,27 +49,71 @@
             Así por medio de la tecnología se trata de dar facilidad para mejorar en estudio de un tema.
         </p>
         <article>
+            <br>
             <h3>Etiquetas semánticas</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum numquam aperiam officia similique voluptatibus sit! Eveniet ipsum deleniti ex molestiae suscipit ut ducimus sed fuga. Qui, sit. Est, harum.
+               Las etiquetas semánticas son las que señalan de manera inequívoca las distintas partes de las que consta un página: cabecera, pie, navegación, sección... <br>
+                <br>
+                Las etiquetas semánticas ayudan a definir la estructura del documento y permiten que las páginas web sean mejor indexadas por los buscadores. <br><br>
+                Una etiqueta se califica como semántica si tiene que ver el <strong> significado</strong>, es decir, si nos informa sobre lo que trata su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a multimedia, como VIDEO, etc. <br><br>
+                Antes de la existencia de las etiquetas semánticas, el contenido se estructuraba con etiquetas DIV que no aportaban ninguna información sobre el tema que trataban, salvo que se añadiese aprovechando el valor dado a la propiedad ID, o a la propiedad CLASS para hacer referencia a su contenido. <br><br>
+                Entre las etiquetas más importantes están las que definen la estructura general del sitio <strong>( HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV )</strong> aunque también existen otra nuevas etiquetas semánticas que señalan elementos concretos de la página como la etiqueta <strong> FIGURE</strong>, para imágenes y gráficos, la etiqueta <strong> FIGCAPTION</strong>, que es un pie de imagen, la etiqueta <strong> TIME</strong> para definir fechas y horas, también <strong> MAIN, MARK, SUMARY Y DETAILS</strong>. <br><br>
+                En cualquier caso, debemos utilizar las etiquetas semánticas, sobre todo en las nuevas páginas, ya que forman parte del estándar de HTML5 y ayudan a definir mejor la estructura de la página web y también a su posicionamiento en los buscadores. <br><br>
+                El uso de las etiquetas semánticas es bastante simple e intuitivo, según las características de cada una que acabamos de ver. Realmente no existen normas fijas, cada diseñador puede darles el uso que considere más apropiado. El único límite es el sentido común, no debemos perder de vista que los buscadores las utilizarán para indexar la página, por lo tanto, nos interesa usar las etiquetas semánticas con la lógica para la que fueron diseñadas. <br><br>
+                <strong> Algunos ejemplos:</strong> <br> <br>
+                <strong> HEADER</strong> <br><br>
+
+                Se utiliza como una introducción del elemento que la contiene. Si colocamos un HEADER en el BODY, a primer nivel, será una introducción o presentación de toda la página. Si colocamos un HEADER dentro de un SECTION, contendrá una introducción a esa sección. También se pueden colocar dentro de un ARTICLE. <br><br>
+                El HEADER suele llevar el título, la descripción corta y el logo de la página. El HEADER por si mismo no separa contenidos, no se debe utilizar aislado, sino dentro de otra etiqueta semántica, o a primer nivel en el BODY. <br><br>                
+                El HEADER no es equivalente a la parte superior de la página, aunque frecuentemente está en esa posición. La etiqueta HGROUP que se solía utilizar junto con el HEADER ha quedado obsoleta. <br><br>               
+                Es bastante frecuente utilizar las etiquetas H1, H2, ... para escribir los títulos dentro del HEADER. <br><br>
+
+                <strong> NAV</strong> <br><br>
+                Esta etiqueta está pensada para contener la barra de navegación o los enlaces a las páginas del sitio web. <br><br>
+                Normalmente va en la parte superior de la página o en un lateral. Suele estar formada por una lista de enlaces con las etiquetas <strong> UL y LI</strong>. Aunque hay multitud de diseños diferentes de barras de navegación y menús. <br><br>
+                <strong> ASIDE </strong> <br><br>
+                Esta etiqueta está diseñada para contenido tangencial, es decir, menos importante que el cuerpo de la página, y que suele ser de un tema relacionado indirectamente (o no relacionado) con el tema principal. Se suele colocar en los laterales de la página. Pero no todo lo que va en los laterales es ASIDE. Por ejemplo, si la página tiene publicidad en el lateral derecho, puede colocarse en una etiqueta ASIDE, también una pequeña reseña sobre el autor podría ir en esta etiqueta. <br><br>
             </p>
             <img src="img/etiquetas-semanticas.png" alt="etiquetas semánticas en html5">
         </article>
-            <h3>CSS Grid</h3>
+            <h3>CSS Grid</h3><br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo beatae culpa dolor sint maxime corporis blanditiis? Quis minus corporis doloremque amet, rem aliquid cumque eos iste rerum minima ullam.
+                Al crear un sitio web, gran parte del trabajo consiste en disponer correctamente los distintos elementos que la componen. El diseño debe ser atractivo, pero claro al mismo tiempo, y se debe comprender de forma intuitiva. Las hojas de estilo en cascada (CSS) constituyen una herramienta para diseñar sitios web con esas características. Mientras que HTML muestra el contenido de forma rudimentaria, CSS es apto para diseños complejos. <br><br>
+                CSS grid emplea dos unidades diferentes: <strong> contenedores y elementos</strong>. El contenedor es el nivel superior y en él se definen las propiedades que luego tendrán todos los elementos. Desde un punto de vista jerárquico, un elemento está dentro de un contenedor. Además de eso, se sigue necesitando HTML para el diseño de la rejilla o grid. En la parte HTML del código fuente, se crean los elementos individuales (texto, gráficos, etc.), que luego se recogen dentro de CSS grid y se disponen en la posición correcta. <br><br>
+                Para activar <strong> CSS grid </strong>, tienes que iniciar la función en el contenedor con display: grid. El código generará únicamente 6 números, que aparecerán uno debajo del otro. Después de crearlos, pueden colocarse con relativa libertad en la pantalla. <br><br>
+                <strong>Ejemplo: <br><br></strong>
+                <img src="img/activar-grid-1.png" alt="¿Cómo activar CSS Grid"><br>
+
+                Con CSS grid layout, se trabaja <strong> con filas y columnas</strong> para crear una cuadrícula, en la cual se colocan y distribuyen los distintos elementos. El usuario es quien decide el tamaño de las filas y las columnas, añadiendo las preferencias al contenedor. <br><br>
+                <img src="img/rejilla,filas y columnas_en_grid.png" alt="Rejilla, filas y columnas en Grid"> <br>
+                CSS Grid nos permite trabajar con <strong> dos dimensiones</strong> y es posible decidir dónde ubicar las casillas, tanto en la horizontal como en la vertical, coordinando perfectamente las dimensiones de cada fila o columna, de manera global o perfectamente independiente. No necesita trucos, ni forzar que se queden sin sitio, Grid realmente ofrece a los diseñadores web el control detallado de la posición y dimensiones de cada elemento en cada eje. <br><br>
             </p>
             <img src="img/CSS_grid_x_Flexbox_layout.png" alt="CSS Grid">
         <article>
 
         </article>
     </section>
+
+    <section>
+        <br><Strong>MOCKUP</Strong><br>
+        <img src="img/Mockup_v1.png" alt="Mockup_v1 versión uno">
+        <br>
+    </section>
+    <section>
+        <br><br>
+        <Strong>Referencias bibligráficas: </Strong><br><br>
+        aulaclic S.L. (2015). ARTÍCULO 33: HTML5. Nuevas etiquetas semánticas. (II). En línea: https://www.aulaclic.es/articulos/html5-semantica_1.html <br><br>
+        IONOS. (2021). CSS grid: diseño con función inteligente. En línea: https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/css-grid-layout/ <br><br>
+    </section>
     <footer>
         <p>
-            Sitio Web diseñado por: César Augusto Rojas Ezquivel - 301122_6 <br>
-            Fecha publicación: 23/06/2022 <br>
-            email: velquiez@hotmail.com <br>
-            skype: velquiez:live
+            <strong>
+                Sitio Web diseñado por: César Augusto Rojas Ezquivel - 301122_6 <br>
+                Fecha publicación: 23/06/2022 <br>
+                email: velquiez@hotmail.com <br>
+                skype: velquiez:live
+            </strong>
+
         </p>
     </footer>
 </body>
