@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas html5</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+
+<body>
+    <header> 
+        <img class="img-fluid" src="img/logo-html5-css3.png" alt="logos de html5 y CSS3">
+        <h1 class="titulo-letrero">Aprende a Diseñar sitios web: <br> Etiquetas semánticas en HTML5 y CSS3</h1>
+        <img class="img-fluid" src="img/logo-universidad.png" alt="logo universidad Nacional Abierta y a distancia.">
+    </header>
+
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark mb-3">
+        <div class="container-fluid ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tema1.html">Etiquetas semánticas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="tema2.html">CSS3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recurso1.html">Recurso-1</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="recurso2.html">Recurso-2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aprendizaje1.html">Aprendizaje-1</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="aprendizaje2.html">Aprendizaje-2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="autor.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="row">
+            <section class="col-md-8">
+                <article>
+                    <br>
+                    <h3 class="subtitulo1">Etiquetas semánticas</h3>
+                    <p>
+                       Las <strong>etiquetas semánticas</strong> son las que señalan de manera inequívoca las distintas partes de las que consta un página: <strong> cabecera, pie, navegación, sección... </strong>  <br>
+                        <br>
+                        Las etiquetas semánticas ayudan a definir la estructura del documento y permiten que las páginas web sean mejor indexadas por los buscadores. <br><br>
+                        Una etiqueta se califica como semántica si tiene que ver el <strong> significado</strong>, es decir, si nos informa sobre lo que trata su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a multimedia, como VIDEO, etc. <br><br>
+    
+                        Antes de la existencia de las etiquetas semánticas, el contenido se estructuraba con etiquetas DIV que no aportaban ninguna información sobre el tema que trataban, salvo que se añadiese aprovechando el valor dado a la propiedad ID, o a la propiedad CLASS para hacer referencia a su contenido. <br><br>
+                        <img class="img-fluid" src="img/html-html5-diferencias.png" alt="tabla-listado-etiquetas-semanticas"> <br><br>
+    
+                        Entre las etiquetas más importantes están las que definen la estructura general del sitio <strong>( HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV )</strong> aunque también existen otra nuevas etiquetas semánticas que señalan elementos concretos de la página como la etiqueta <strong> FIGURE</strong>, para imágenes y gráficos, la etiqueta <strong> FIGCAPTION</strong>, que es un pie de imagen, la etiqueta <strong> TIME</strong> para definir fechas y horas, también <strong> MAIN, MARK, SUMARY Y DETAILS</strong>. <br><br>
+                        <img class="img-fluid" src="img/listado-etiqueta-semantica.png" alt="tabla-listado-etiquetas-semanticas"> <br><br>
+    
+                        En cualquier caso, debemos utilizar las etiquetas semánticas, sobre todo en las nuevas páginas, ya que forman parte del estándar de HTML5 y ayudan a definir mejor la estructura de la página web y también a su posicionamiento en los buscadores. <br><br>
+                        El uso de las etiquetas semánticas es bastante simple e intuitivo, según las características de cada una que acabamos de ver. Realmente no existen normas fijas, cada diseñador puede darles el uso que considere más apropiado. El único límite es el sentido común, no debemos perder de vista que los buscadores las utilizarán para indexar la página, por lo tanto, nos interesa usar las etiquetas semánticas con la lógica para la que fueron diseñadas. <br><br>
+                        <strong> Algunos ejemplos:</strong> <br> <br>
+                        <strong> HEADER</strong> <br><br>
+        
+                        Se utiliza como una introducción del elemento que la contiene. Si colocamos un HEADER en el BODY, a primer nivel, será una introducción o presentación de toda la página. Si colocamos un HEADER dentro de un SECTION, contendrá una introducción a esa sección. También se pueden colocar dentro de un ARTICLE. <br><br>
+                        El HEADER suele llevar el título, la descripción corta y el logo de la página. El HEADER por si mismo no separa contenidos, no se debe utilizar aislado, sino dentro de otra etiqueta semántica, o a primer nivel en el BODY. <br><br>                
+                        El HEADER no es equivalente a la parte superior de la página, aunque frecuentemente está en esa posición. La etiqueta HGROUP que se solía utilizar junto con el HEADER ha quedado obsoleta. <br><br>               
+                        Es bastante frecuente utilizar las etiquetas H1, H2, ... para escribir los títulos dentro del HEADER. <br><br>
+        
+                        <strong> NAV</strong> <br><br>
+                        Esta etiqueta está pensada para contener la barra de navegación o los enlaces a las páginas del sitio web. <br><br>
+                        Normalmente va en la parte superior de la página o en un lateral. Suele estar formada por una lista de enlaces con las etiquetas <strong> UL y LI</strong>. Aunque hay multitud de diseños diferentes de barras de navegación y menús. <br><br>
+                        <strong> ASIDE </strong> <br><br>
+                        Esta etiqueta está diseñada para contenido tangencial, es decir, menos importante que el cuerpo de la página, y que suele ser de un tema relacionado indirectamente (o no relacionado) con el tema principal. Se suele colocar en los laterales de la página. Pero no todo lo que va en los laterales es ASIDE. Por ejemplo, si la página tiene publicidad en el lateral derecho, puede colocarse en una etiqueta ASIDE, también una pequeña reseña sobre el autor podría ir en esta etiqueta. <br><br>
+                        <img class="img-fluid" src="img/etiquetas-semanticas-ej.png" alt="etiquetas semánticas en html5">
+                    </p>
+    
+                </article>
+            </section>
+    
+            <aside class="col-md-4">
+                <p><strong> Redes sociales: </strong> 
+                    <br> <br>
+                    <iframe class="img-fluid"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="320" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"> </iframe>
+                </p>
+            </aside>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>
+            <strong>
+                Sitio Web diseñado por: César Augusto Rojas Ezquivel - 301122_6 <br>
+                Fecha publicación: 13/07/2022 <br>
+                email: velquiez@hotmail.com <br>
+                skype: velquiez:live
+            </strong>
+        </p>
+    </footer>
+    
+</body>
+</html>
