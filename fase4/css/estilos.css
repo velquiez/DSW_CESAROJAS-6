@@ -23,6 +23,9 @@ header {
         width: 150;
         height: 180;
     }
+    footer{
+        display: none;
+    }
 }
 
 .titulo-letrero {
